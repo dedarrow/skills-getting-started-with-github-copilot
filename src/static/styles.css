@@ -164,6 +164,34 @@ footer {
   color: #333;
 }
 
+.participants-list.no-bullets {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px;
+  color: #c62828;
+  font-size: 18px;
+  vertical-align: middle;
+  padding: 2px 4px;
+}
+
+.delete-participant:hover .delete-icon {
+  color: #b71c1c;
+  text-shadow: 0 0 2px #c62828;
+}
+
+.delete-icon {
+  font-size: 18px;
+  pointer-events: none;
+}
+}
+
 .no-participants {
   color: #888;
   font-style: italic;
